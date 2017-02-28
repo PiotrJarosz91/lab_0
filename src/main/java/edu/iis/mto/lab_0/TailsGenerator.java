@@ -10,7 +10,6 @@ public class TailsGenerator {
 		for (int i = 0; i < value.length()+1; i++){
 			tails.add(value.substring(i,value.length()));
 		}
-		System.out.println(tails);
 		return tails;
 	}
 

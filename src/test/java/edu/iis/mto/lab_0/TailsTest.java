@@ -11,12 +11,12 @@ import org.junit.Test;
 public class TailsTest {
 	
 	private static final String HELLO = "Hello";
-	private TailsGenerator tailsGenerator;
+	private edu.iis.mto.lab_0.TailsGenerator tailsGenerator;
 	private List<String> tails;
 	@Before
 	public void setup(){
 		
-		tailsGenerator = new TailsGenerator();
+		tailsGenerator = new edu.iis.mto.lab_0.TailsGenerator();
 		tails = tailsGenerator.tails(HELLO);
 	}
 

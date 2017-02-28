@@ -8,6 +8,7 @@ public class TailsGenerator {
 	public List<String> tails(String value) {
 		List<String> tails = new ArrayList<>(value.length());
 		tails.add(value);
+		tails.add("");
 		return tails;
 	}
 
